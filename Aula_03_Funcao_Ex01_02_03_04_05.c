@@ -2,21 +2,22 @@
 #include <stdlib.h>
 
 /*
-1. Escreva uma funÁ„o que recebe um inteiro positivo m e escreve na tela todos os n˙meros primos entre 0 e M.
 
-2. Escreva uma funÁ„o que receba um dos lados de um quadrado e retorne o valor de sua ·rea.
+1. Escreva uma fun√ß√£o que recebe um inteiro positivo m e escreve na tela todos os n√∫meros primos entre 0 e M.
 
-3. Escreva uma funÁ„o que receba um n˙mero inteiro positivo n por par‚metro e retorne a soma dos n primeiros inteiros positivos.
+2. Escreva uma fun√ß√£o que receba um dos lados de um quadrado e retorne o valor de sua √°rea.
 
-4. FaÁa uma funÁ„o que recebe um n˙mero N que, caso seja positivo, calcule e exiba todos m˙ltiplos de 5 entre 0 e N.
+3. Escreva uma fun√ß√£o que receba um n√∫mero inteiro positivo n por par√¢metro e retorne a soma dos n primeiros inteiros positivos.
 
-5. Escreva uma funÁ„o que imprima o seguinte menu e, de acordo com a opÁ„o escolhida, execute o exercÌcio escolhido. 
-O menu deve ser apresentado apÛs a finalizaÁ„o do exercÌcio escolhido: 
+4. Fa√ßa uma fun√ß√£o que recebe um n√∫mero N que, caso seja positivo, calcule e exiba todos m√∫ltiplos de 5 entre 0 e N.
 
-	1. ExercÌcio 1: Primos atÈ M. 
-	2. ExercÌcio 2: ¡rea do quadrado 
-	3. ExercÌcio 3: Soma de 1 a n 
-	4. ExercÌcio 4: M˙ltiplos de 5 
+5. Escreva uma fun√ß√£o que imprima o seguinte menu e, de acordo com a op√ß√£o escolhida, execute o exerc√≠cio escolhido. 
+O menu deve ser apresentado ap√≥s a finaliza√ß√£o do exerc√≠cio escolhido: 
+
+	1. Exerc√≠cio 1: Primos at√© M. 
+	2. Exerc√≠cio 2: √Årea do quadrado 
+	3. Exerc√≠cio 3: Soma de 1 a n 
+	4. Exerc√≠cio 4: M√∫ltiplos de 5 
 	5. Sair
 	
 */
@@ -40,7 +41,7 @@ int menu(){
 	
 	printf("\n[1] Primos ate N:");
 	printf("\n[2] A Area do quadro:");
-	printf("\n[3] SomatÛria ate N:");
+	printf("\n[3] Somat√≥ria ate N:");
 	printf("\n[4] Multiplico de  5:");
 	printf("\n[5] Sair");
 	int op = lerinteiroPositivo("\n Informe a opcao desejada: ");
